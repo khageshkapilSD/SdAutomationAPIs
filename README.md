@@ -1,2 +1,2 @@
 # SdAutomationAPIs
-The repository contains the APIs related to automation
+The repository contains the APIs related to automation for mobile apps
