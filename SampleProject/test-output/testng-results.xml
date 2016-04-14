@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="46" started-at="2016-01-05T09:47:20Z" finished-at="2016-01-05T09:47:20Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="46" started-at="2016-01-05T09:47:20Z" finished-at="2016-01-05T09:47:20Z">
+      <class name="com.snapdeal.automation.TestNGClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.snapdeal.automation.TestNGClass@707f7052]" name="beforeSuite" is-config="true" duration-ms="43" started-at="2016-01-05T15:17:20Z" finished-at="2016-01-05T15:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.snapdeal.automation.TestNGClass@707f7052]" name="beforetest" is-config="true" duration-ms="1" started-at="2016-01-05T15:17:20Z" finished-at="2016-01-05T15:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.snapdeal.automation.TestNGClass@707f7052]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-01-05T15:17:20Z" finished-at="2016-01-05T15:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.snapdeal.automation.TestNGClass@707f7052]" name="testMethod" duration-ms="1" started-at="2016-01-05T15:17:20Z" finished-at="2016-01-05T15:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.snapdeal.automation.TestNGClass@707f7052]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-01-05T15:17:20Z" finished-at="2016-01-05T15:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.snapdeal.automation.TestNGClass@707f7052]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-01-05T15:17:20Z" finished-at="2016-01-05T15:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.snapdeal.automation.TestNGClass -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
