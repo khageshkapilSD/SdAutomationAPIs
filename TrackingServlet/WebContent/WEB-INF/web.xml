@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<servlet>
+		<servlet-name>Interceptor</servlet-name>
+		<servlet-class>com.snapdeal.Interceptor</servlet-class>
+		<!-- <init-param>
+	        <param-name>proxyTo</param-name>
+	        <param-value>http://10.41.111.14:8443</param-value>
+	    </init-param>
+		<init-param>
+	     <param-name>maxThreads</param-name>
+	     <param-value>256</param-value>
+	   </init-param>
+	   <async-supported>true</async-supported> -->
+	</servlet>
+
+	<servlet>
+	   <servlet-name>Jersey RESTful Application</servlet-name>
+	   <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+	   <init-param>
+	     <param-name>jersey.config.server.provider.packages</param-name>
+	     <param-value>com.snapdeal.resource</param-value>
+	   </init-param>
+	   <load-on-startup>1</load-on-startup>
+	 </servlet>
+
+	<servlet-mapping>
+		<servlet-name>Interceptor</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+    <servlet-name>Jersey RESTful Application</servlet-name>
+    <url-pattern>/get/*</url-pattern>
+  </servlet-mapping>
+  
+	
+
+
+</web-app>
