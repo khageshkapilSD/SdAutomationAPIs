@@ -1,0 +1,4 @@
+org\snapdeal\statusboard\model\ReleaseStructure.class
+org\snapdeal\statusboard\model\Status.class
+org\snapdeal\statusboard\services\StatusBoardUtils.class
+org\snapdeal\statusboard\resources\StatusBoard.class
